@@ -1,0 +1,16 @@
+user@user:~$ nmap
+The program 'nmap' is currently not installed. You can install it by typing:
+sudo apt install nmap
+
+
+PORT SCANNING
+nmap -sP scanme.nmap.org google.com yahoo.in amazon.in
+
+OS FINGERPRINTING
+sudo nmap -v -O scanme.nmap.org
+
+TCP SCAN
+nmap -sT scanme.nmap.org
+
+UDP SCAN
+sudo nmap -sU scanme.nmap.org
