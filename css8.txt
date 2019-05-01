@@ -1,0 +1,19 @@
+c502@comp:~$ sudo apt-get install iptables
+c502@comp:~$ sudo iptables -L -v
+      
+c502@comp:~$ sudo iptables -L | grep policy
+
+c502@comp:~$ sudo iptables -L
+       
+c502@comp:~$ sudo iptables -F
+c502@comp:~$ sudo iptables -S
+ 
+c502@comp:~$ sudo iptables -A INPUT -s 10.10.10.10 -j DROP
+c502@comp:~$ sudo iptables -L --line-numbers
+        
+c502@comp:~$ sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+c502@comp:~$ sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+c502@comp:~$ sudo iptables -S
+
+c502@comp:~$ sudo iptables -P INPUT DROP 
+
