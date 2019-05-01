@@ -1,0 +1,11 @@
+PORT SCANNING
+nmap -sP scanme.nmap.org google.com yahoo.in amazon.in
+
+OS FINGERPRINTING
+sudo nmap -v -O scanme.nmap.org
+
+TCP SCAN
+nmap -sT scanme.nmap.org
+
+UDP SCAN
+sudo nmap -sU scanme.nmap.org

@@ -1,0 +1,13 @@
+sudo apt-get install traceroute
+traceroute google.com
+
+sudo apt-get install whois
+whois google.com
+
+sudo apt-get install nslookup
+nslookup google.com
+
+sudo apt-get install dig
+dig google.com
+
+dig google.com any
